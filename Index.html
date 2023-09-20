@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/shopping.png">
+    <title>Página RYN</title>
+    <link rel="stylesheet" type="text/css" href="assets/estilo.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">RYN</div>
+    </nav>
+
+    <section class="blocos">
+        <div class="bloco" onclick="showBlockModal(1)">
+            <h2>Promoções Amazon do mês!</h2>
+            <p class="descricao">Descubra Ofertas Irresistíveis na Amazon: Economize em seus produtos favoritos com nossas Promoções
+                Exclusivas. Não perca a chance de encontrar descontos incríveis em uma ampla variedade de itens. 
+                Aproveite agora e faça compras inteligentes na Amazon!</p>
+        </div>
+        <div class="bloco" onclick="showBlockModal(2)">
+            <h2>Produtos para gamers!</h2>
+            <p class="descricao">"Explore a emocionante linha de produtos gamers projetados para elevar sua experiência de jogo. De teclados mecânicos responsivos a mouses de alta precisão e headsets imersivos, nossos produtos são projetados para gamers de todos os níveis. Prepare-se para mergulhar em mundos virtuais, conquistar desafios épicos e alcançar a vitória com o melhor equipamento gamer à sua disposição.</p>
+        </div>
+        <div class="bloco" onclick="showBlockModal(3)">
+            <h2>Produtos NPC!</h2>
+            <p class="descricao">A moda das lives NPC pegou, por que não ver alguns produtos para começar?</p>
+        </div>
+    </section>
+
+
+    <!-- Modais (inicialmente escondidos) -->
+    <div id="blockModal1" class="modal" onclick="closeBlockModal(1)">
+        <div class="modal-content">
+            <h2>Promoções de livros Amazon do mês!</h2>
+            <ul style="TEXT-ALIGN: initial;">
+                <li>Título: <a href="https://amzn.to/45Zl8My">Quebrando o hábito de ser você mesmo</a></li>
+                <li>Título: <a href="https://amzn.to/3rjniHQ">Meditações: O diário do imperador estóico Marco Aurélio</a></li>
+                <li>Título: <a href="https://amzn.to/3t0xsxy">Depois da vida</a></li>
+                <li>Título: <a href="https://amzn.to/3t1ZGIp">Resiliência: Como blindar a sua mente</a></li>
+                <li>Título: <a href="https://amzn.to/4575VYQ">Cidades de papel</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="blockModal2" class="modal" onclick="closeBlockModal(2)">
+        <div class="modal-content">
+            <h2>Produtos para gamers!</h2>
+            <ul style="TEXT-ALIGN: initial;">
+                <li>Título: <a href="https://amzn.to/451i6WK">PC Gamer Completo Mancer</a></li>
+                <li>Título: <a href="https://amzn.to/3LvjIB8">Monitor LG Widescreen 24MP400-23.8</a></li>
+                <li>Título: <a href="https://amzn.to/48pc5q6">Mouse Pad Preto</a></li>
+                <li>Título: <a href="https://amzn.to/3PJnMjP">C3Tech Caixa de som</a></li>
+                <li>Título: <a href="https://amzn.to/3ZmXur0">Teclado Multilaser Slim Preto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="blockModal3" class="modal" onclick="closeBlockModal(3)">
+        <div class="modal-content">
+            <h2>Produtos NPC!</h2>
+            <ul style="TEXT-ALIGN: initial;">
+                <li>Título: <a href="https://amzn.to/3PLkKvG">Tiara de Gatinho Acessório</a></li>
+                <li>Título: <a href="https://amzn.to/3RwjzBp">Pantufa 3D Flamingo</a></li>
+                <li>Título: <a href="https://amzn.to/3ZlPZR3">Kit de maquiagem com tudo</a></li>
+                <li>Título: <a href="https://amzn.to/45YWlYX">Smartphone Xiaomi Redmi 12C</a></li>
+                <li>Título: <a href="https://amzn.to/3LvWLy1">COMBO LIVES NPC!</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Adicione modais semelhantes para outros blocos -->
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="coluna">
+            <h3>Suporte</h3>
+            <ul>
+                <li><a href="mailto:ryn012004@gmail.com">Contate-nos</a></li>
+                <li><a target="_blank"
+                        href="https://www.amazon.com.br/b?_encoding=UTF8&tag=0101f1-20&linkCode=ur2&linkId=d2b1e529cb4ffa4660584318e000d61e&camp=1789&creative=9325&node=17365811011">Compre
+                        na Amazon</a></li>
+            </ul>
+            <div>
+                <img class="selo_ass" src="img/logo_1.png" alt="">
+            </div>
+        </div>
+        <div style="text-align: center;" class="coluna">
+            <h3>Sobre Nós</h3>
+            <p>Somos apaixonados por oferecer a você a melhor experiência de compra online. Como revendedores, estamos
+                empenhados em selecionar cuidadosamente os produtos mais incríveis e úteis. Ao comprar através dos links
+                fornecidos, você não apenas obtém acesso a produtos incríveis, mas também nos ajuda a continuar
+                oferecendo avaliações e recomendações imparciais.</p>
+        </div>
+        <div class="coluna">
+            <h3>Doação</h3>
+            <p>Escaneie o QR code abaixo para fazer uma doação:</p>
+            <img style="width: 60%;" src="img/qrcode.png" alt="QR Code de Doação">
+        </div>
+
+    </footer>
+    <script src="assets/java.js"></script>
+    <!-- ... Outros elementos do seu site ... -->
+</body>
+
+</html>
